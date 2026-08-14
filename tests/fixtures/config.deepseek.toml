@@ -1,0 +1,20 @@
+model = "deepseek-v4-flash"
+model_provider = "deepseek"
+preferred_auth_method = "apikey"
+forced_login_method = "api"
+model_reasoning_effort = "high"
+model_catalog_json = "~/.codex/models.json"
+
+[marketplaces.openai-bundled]
+last_updated = "2026-08-10T16:13:20Z"
+source_type = "local"
+source = "/Users/bing/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[projects."/Users/bing/Desktop/develop-somethins-for-harness-agent"]
+trust_level = "trusted"
+
+[model_providers.deepseek]
+name = "deepseek"
+base_url = "https://api.deepseek.com/"
+wire_api = "responses"
+experimental_bearer_token = "sk-old-secret"

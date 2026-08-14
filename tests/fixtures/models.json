@@ -1,0 +1,8 @@
+{
+  "models": [
+    {
+      "slug": "my-existing-model",
+      "display_name": "Existing Model"
+    }
+  ]
+}

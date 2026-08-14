@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChatGPT DeepSeek 模型切换助手"
+  short_description: "在 ChatGPT 中使用 DeepSeek 模型，并在 flash/pro/OpenAI 默认之间一键切换。"
+  default_prompt: "使用 $chatgpt-deepseek-model-switch 帮我切换到 DeepSeek 的 deepseek-v4-pro 模型。"
